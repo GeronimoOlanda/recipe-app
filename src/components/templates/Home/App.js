@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Recipe from './components/Recipes';
+import Recipe from '../../Recipes';
 import './App.css';
 
-const App = () => {
+const Home = () => {
   const APP_ID = '47e79328'; // ID para acesso
   const APP_KEY = '44375f42db069967095b6857ce6390b7'; // Chave para acesso da aplicacao
 
@@ -58,4 +58,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
