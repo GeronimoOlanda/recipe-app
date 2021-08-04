@@ -1,0 +1,10 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol {
+    list-style: none;
+}
+
+ol li {
+    text-align: justify;
+}
