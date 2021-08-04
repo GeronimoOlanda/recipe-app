@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Recipe from '../../Recipes';
+import Recipe from '../../Recipes/index';
+import style from '../../../styles/recipe.module.css';
 import './App.css';
 
 const Home = () => {

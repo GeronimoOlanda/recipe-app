@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'; // ES6
-import style from '../../recipe.module.css';
+import style from '../../styles/recipe.module.css';
 import './index.css';
 const Recipe = ({ title, calories, image, ingredients }) => {
   return (
